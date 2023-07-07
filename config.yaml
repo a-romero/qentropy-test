@@ -1,0 +1,14 @@
+PROJECT_DIR: './data/projects'
+
+API_ADDRESS: 'http://127.0.0.1:5000'
+
+API_ENDPOINTS:
+    LOAD_PROJECTS: '/api/v1/projects'
+    CREATE_PROJECT: '/api/v1/project'
+    DELETE_PROJECT: '/api/v1/project/delete'
+    DOWNLOAD_DATA: '/api/v1/project/data/download'
+    ADD_DATA: '/api/v1/project/data'
+    GET_DATA: '/api/v1/project/data'
+    GET_PROJECT_INFO: '/api/v1/project/info'
+    UPDATE_LABEL_DATA: '/api/v1/project/data'
+    UPDATE_PROJECT_INFO: '/api/v1/project/info'
